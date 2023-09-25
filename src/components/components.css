@@ -1,0 +1,42 @@
+.divRep{
+    display: flex;
+    flex-direction: row;
+}
+.Game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FormGame{
+    width: 600px;
+}
+.Title{
+    background-image: linear-gradient(
+    to right,
+    rgb(248, 0, 0),
+    yellow,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.BTNSubmit{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 1000px;
+    margin: 30px;
+}
+.Input{
+    margin-top: 25px;
+}
